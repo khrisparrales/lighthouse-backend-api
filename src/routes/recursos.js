@@ -127,7 +127,7 @@ async function verifyTokenAdmin(req, res, next) {
     } catch (e) {
         //console.log(e)
         return res.status(401).send("Unauhtorized Request");
-    }
+    } 
 }
 
 module.exports = router;
